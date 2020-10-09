@@ -215,7 +215,7 @@ openssl x509 -in 4.rsa_private_key.der -inform der -text -noout
 1. 依据crt生成pfx或p12证书
 
 ```shell
-openssl pkcs12 -export -name ysmktaln -in 3.rsa_private_key.crt -inkey 1.rsa_private_key.pem -out 5.rsa_private_key.pfx
+openssl pkcs12 -export -name ssss -in 3.rsa_private_key.crt -inkey 1.rsa_private_key.pem -out 5.rsa_private_key.pfx
 ```
 
 pfx证书一般是在windows的iis服务器中使用，一般为p12证书格式
